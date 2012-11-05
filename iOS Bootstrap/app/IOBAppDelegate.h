@@ -6,8 +6,14 @@
 //  Copyright (c) 2012 Kyle LeNeau. All rights reserved.
 //
 
-@interface IOBAppDelegate : UIResponder <UIApplicationDelegate>
+#import "IOBMasterViewController.h"
+#import "IOBDetailsViewController.h"
 
-@property (strong, nonatomic) UIWindow *window;
+@interface IOBAppDelegate : UIResponder <UIApplicationDelegate, UISplitViewControllerDelegate>
+
+@property (nonatomic, strong) UIWindow *window;
+@property (nonatomic, strong) UISplitViewController *splitViewController;
+@property (nonatomic, strong) UINavigationController *masterViewController;
+@property (nonatomic, strong) IOBDetailsViewController *detailViewController;
 
 @end

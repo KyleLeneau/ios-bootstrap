@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		277D0F64164743B300D879E6 /* IOBMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 277D0F63164743B300D879E6 /* IOBMasterViewController.m */; };
+		277D0F681647465100D879E6 /* IOBDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 277D0F671647465100D879E6 /* IOBDetailsViewController.m */; };
 		279696FF1600E11E00803729 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279696FE1600E11E00803729 /* UIKit.framework */; };
 		279697011600E11E00803729 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279697001600E11E00803729 /* Foundation.framework */; };
 		279697031600E11E00803729 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279697021600E11E00803729 /* CoreGraphics.framework */; };
@@ -45,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		277D0F62164743B300D879E6 /* IOBMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOBMasterViewController.h; sourceTree = "<group>"; };
+		277D0F63164743B300D879E6 /* IOBMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOBMasterViewController.m; sourceTree = "<group>"; };
+		277D0F661647465100D879E6 /* IOBDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOBDetailsViewController.h; sourceTree = "<group>"; };
+		277D0F671647465100D879E6 /* IOBDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOBDetailsViewController.m; sourceTree = "<group>"; };
 		279696FA1600E11E00803729 /* iOS Bootstrap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Bootstrap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		279696FE1600E11E00803729 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		279697001600E11E00803729 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -164,11 +170,11 @@
 				27E6B6321600E2C1007632C7 /* Info.plist */,
 				27E6B6331600E2C1007632C7 /* main.m */,
 				27E6B6341600E2C1007632C7 /* Prefix.pch */,
+				27E6B6241600E2B6007632C7 /* IOBCommon.h */,
 				27E6B6201600E2B6007632C7 /* IOBAppDelegate.h */,
 				27E6B6211600E2B6007632C7 /* IOBAppDelegate.m */,
 				27E6B6221600E2B6007632C7 /* IOBApplication.h */,
 				27E6B6231600E2B6007632C7 /* IOBApplication.m */,
-				27E6B6241600E2B6007632C7 /* IOBCommon.h */,
 			);
 			name = app;
 			path = "iOS Bootstrap/app";
@@ -177,6 +183,10 @@
 		27E6B6251600E2B6007632C7 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				277D0F62164743B300D879E6 /* IOBMasterViewController.h */,
+				277D0F63164743B300D879E6 /* IOBMasterViewController.m */,
+				277D0F661647465100D879E6 /* IOBDetailsViewController.h */,
+				277D0F671647465100D879E6 /* IOBDetailsViewController.m */,
 			);
 			name = controller;
 			path = "iOS Bootstrap/controller";
@@ -375,6 +385,8 @@
 				27E6B62F1600E2B6007632C7 /* IOBAppDelegate.m in Sources */,
 				27E6B6301600E2B6007632C7 /* IOBApplication.m in Sources */,
 				27E6B6361600E2C1007632C7 /* main.m in Sources */,
+				277D0F64164743B300D879E6 /* IOBMasterViewController.m in Sources */,
+				277D0F681647465100D879E6 /* IOBDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
